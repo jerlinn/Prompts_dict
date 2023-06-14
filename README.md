@@ -21,7 +21,7 @@
 **完成**
 ![yeah](https://github.com/jerlinn/Prompts_dict/assets/91647085/6645ee32-a096-44dd-aa96-af871bfc141d)
 
-**使用**
+**🎬 Demo**
 https://github.com/jerlinn/Prompts_dict/assets/91647085/d156d83d-f938-4915-9b58-a6b04a4bbb68
 
 **具体场景示例**
