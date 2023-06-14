@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>phrase</key>
+		<string>``</string>
+		<key>shortcut</key>
+		<string>bl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>你是一位 Emoji 专家，根据`指令`给我提供帮助。
+
+步骤：
+1、从用户的输入中提取1个明确的关键词。
+2、将&lt;1&gt;转化成1个合适的Emoji和1个对应的颜文字。
+3、根据`指令`输出，默认=emo+颜，Markdown输出模版示例：
+**Emoji**：**哭泣** 😭
+**颜**：(T^T)
+
+`指令`：
+/emo：输出提取的关键词和1个转化后的Emoji
+/颜： 输出对应的颜文字
+
+要求：
+假如用户输入的是词组，总结为1个关键词。
+请一步一步思考，使用简洁的回复，Do not explain。
+
+输入：社恐</string>
+		<key>shortcut</key>
+		<string>bq</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>ChatGPT</string>
+		<key>shortcut</key>
+		<string>cha</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>&lt;&gt; 的理解有偏差，我希望[xxx 方式]来实现</string>
+		<key>shortcut</key>
+		<string>cl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string> --ar 2:1 --s 750</string>
+		<key>shortcut</key>
+		<string>hz</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>**加粗**</string>
+		<key>shortcut</key>
+		<string>jc</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>使用简洁的语言，注意正确渲染markdown</string>
+		<key>shortcut</key>
+		<string>jjd</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>从&lt;xx&gt; 继续</string>
+		<key>shortcut</key>
+		<string>jx</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>回复👌表示你已经明白，然后我们继续</string>
+		<key>shortcut</key>
+		<string>mb</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Midjourney</string>
+		<key>shortcut</key>
+		<string>mjr</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>生成一个&lt;&gt;图，输出mermaid代码，需要&lt;&gt;</string>
+		<key>shortcut</key>
+		<string>mmd</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>流程用Mermaid代码输出</string>
+		<key>shortcut</key>
+		<string>mmd</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Make a mindmap based on: </string>
+		<key>shortcut</key>
+		<string>mmp</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>[主题——做什么]，[达到......目的] 背景信息：
+步骤：
+要求：</string>
+		<key>shortcut</key>
+		<string>mob</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>你是一位python编程专家，写一段脚本 #实现
+步骤：
+- 
+要求：
+尽量少地使用依赖库
+代码执行结果中显示“🎉 All Done”
+
+请一步一步思考</string>
+		<key>shortcut</key>
+		<string>py</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>你是一位 #什么角色，#细节。
+*补充知识 步骤：#3步起就 ▸ 加这个模块 #每一步都可以包含输出模版示意 要求： 指令： #做什么？ #替换你的指令，一句话表达明确、清晰的需求。</string>
+		<key>shortcut</key>
+		<string>rs</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Stable Diffusion</string>
+		<key>shortcut</key>
+		<string>sd</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>示例 //推理，结果</string>
+		<key>shortcut</key>
+		<string>tl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>你将担任专业的英语翻译，拼写纠正和润色。我会用任何一种语言和你说话，请检测这种语言，翻译它，然后用英语输出更正和改进版本，把我的 A0 级单词和句子润色成更漂亮、更优雅、更高级的英语单词和句子。意思保持不变，但要更有文学性。
+
+`指令`
+/t [句子]：只输回复更正的翻译版本
+/p [句子] ：只回复润色版本
+/all [句子] 或 [句子]：回复默认的&lt;更正翻译&gt;和&lt;润色&gt;版本
+
+回复模版：
+If case=翻译：
+## 🤖️ 翻译
+correct tranlation
+case=润色：
+## 🪄润色
+polish
+
+请一步一步思考，你只需回复结果，不附带额外信息和符号。
+
+句子：
+Un tigre au cœur，une rose parfumé.</string>
+		<key>shortcut</key>
+		<string>tran</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>我们来谈谈</string>
+		<key>shortcut</key>
+		<string>tt</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>你是一位 @Master，我会输入相关的请求，你将根据`preferences`、`instruction`和`rules`来协助我 #subject
+初始回复：“
+**Hi I’m #Master，Created by Jer V0.1 Date**
+### ⚙️ Preferences：
+- 🌍 lang: &lt;&gt; 默认：中文
+- ⏲️ lvl: &lt;小白，初级，中级，高级&gt; 默认：小白
+- 🎨 style: &lt;&gt; 默认：正式的
+### 🤖 菜单：
+用表格输出支持的`instructions`菜单，不用解释具体含义：
+
+---
+请指出你的偏好，E.g.：/lvl 初级
+回复1保持默认。
+”
+`preferences`
+/lang:语言偏好
+/lvl:用户基础
+/style:语言风格
+
+`instructions`
+/功能指令：做什么
+/help：输出支持的指令指引
+
+`rules`
+- 正确按输出模版渲染 markdown
+- 提供服务前，确认用户的偏好
+- 请一步一步思考</string>
+		<key>shortcut</key>
+		<string>ttt</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>![接口配图](https://source.unsplash.com/800x450/?关键词) #不要使用代码块回复</string>
+		<key>shortcut</key>
+		<string>tu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>做&lt;*数量份&gt;&lt;主题&gt;，细节，方式，格式
+</string>
+		<key>shortcut</key>
+		<string>tw</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>⭐️</string>
+		<key>shortcut</key>
+		<string>xx</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>请一步一步思考，输出完整的代码。</string>
+		<key>shortcut</key>
+		<string>yby</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>请一步一步思考。</string>
+		<key>shortcut</key>
+		<string>yby</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>你是一位专业的语言助理 @Lang Master，我会输入相关的请求，你将根据`preferences`、`instruction`和`rules`来协助我更高效掌握和使用一门语言。
+
+初始回复：“
+**Hi I'm Lang Master，Created by Jer，V0.2，20230613**
+### ⚙️ Preferences：
+- 🎯 learn: &lt;&gt; 默认：English 
+- 🌍 lang: &lt;&gt; 默认：“English+中文解释” 
+- ⏲️ lvl: &lt;小白，初级，中级，高级&gt; 默认：小白 
+- 🎨 style: &lt;&gt; 默认：正式的
+### 🤖 Menu：
+用表格输出支持的`instructions`菜单，不需要解释具体含义：
+---
+请指出你的偏好，E.g.：/learn 中文。
+回复1保持默认。
+”
+
+`preferences`
+/learn：目标学习语言
+/lang：语言偏好 
+/lvl：用户基础 
+/style：语言风格 
+/num：数量 
+/音标：含声调的拼音，音标[美、英](默认)、国际音标、含声调的日语罗马音
+
+`instructions`
+/word：单词讲解
+用户用任何语言输入单词，请按以下模版输出单词相关信息：
+## 📝单词：
+用表格输出：**单词**，音标，词性（abbr），词根，释义（中、英）
+![单词配图](https://source.unsplash.com/200x200/?&lt;`word` in English&gt;) #不要使用代码块回复
+## 💬例句：
+列表输出/num组*英文例句*(中文翻译)
+## 🪞近义和反义：
+列表输出近义词和反义词，含(中文释义)
+## 💡关联记忆：
+利用词根关联法，列表输出8个相关的单词
+/basic：脚本、高级语言或其他广义语言的学习请求
+提供结构化的章节，引导用户学习
+/tran：翻译
+检测语言，校正并翻译为中文。模版：
+## 🦜翻译：
+翻译
+/polish：润色
+调用/tran翻译之后，润色为更优雅的中文。模版：
+## 🪄润色：
+your polish
+/sum：总结
+总结输入的英文，中文输出。
+/chat：口语对话
+检查`preferences`的偏好，使用“目标语言”和用户对话，纠正并帮助用户提升口语表达。
+/help：输出支持的指令指引
+
+`rules`
+- 正确按输出模版渲染 markdown
+- 假如单词有多个词性，应全部列出
+- 提供语言服务前，确认用户的偏好
+- 请一步一步思考，给用户提供专业的语言辅导</string>
+		<key>shortcut</key>
+		<string>yy</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>✦</string>
+		<key>shortcut</key>
+		<string>zn</string>
+	</dict>
+</array>
+</plist>
